@@ -10,6 +10,8 @@
     // Text speed 
         let t = 0 
         const speedoftexting = 125;
+
+    // check 
     // API 
         // URL 
             const url =  'https://mamsen.frontendkenterik.no/wp-json/wp/v2/';
@@ -61,30 +63,9 @@
 
 // Startup function 
     function startup (){
-        // Let´s check if api has been called
-        console.log('-- Stage 1 --');
-        console.log('-- Check api call --'); 
 
-        if(objectPost === true && objectMedia === true){
-            // if both api called was made 
-            console.log('-- Stage 1.1 --');
-            console.log('-- API Called complett')
-        } if(objectPost === false && objectMedia === false) {
-            console.log('-- Stage 1.2 --');
-            console.log('-- API Called Has not start booting');
-            // calling API Blog; 
-            msAPI('test' , endPointPosts);
-            // Calling api Media
-            msAPI('test' , endPointMedia);
-        } if(objectPost === false) {
-            msAPI('test' , endPointPosts);
-        } if(objectMedia === false){
-            msAPI('test' , endPointMedia);
-        }
-        else{
-            // Error 
-            console.log('error')
-        }
+        
+
     }
 
     
