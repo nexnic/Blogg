@@ -1,0 +1,22 @@
+{
+  "name": "mansen",
+  "version": "1.0.0",
+  "description": "This is the landing page for a blogg ",
+  "main": "index.js",
+  "scripts": { 
+    "compile:sass": "node-sass sass/main.scss css/style.css -w" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexnic/Mamsen.git"
+  },
+  "author": "Kent Erik Hole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexnic/Mamsen/issues"
+  },
+  "homepage": "https://github.com/nexnic/Mamsen#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

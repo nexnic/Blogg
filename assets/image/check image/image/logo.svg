@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 48">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #f3f3f3;
+        font-family: KaushanScript-Regular, 'Kaushan Script';
+        font-size: 36px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(1 35) rotate(-2)"><tspan class="cls-3" x="0" y="0">M</tspan><tspan class="cls-1" x="33" y="0">amsen</tspan></text>
+</svg>
