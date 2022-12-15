@@ -1,0 +1,33 @@
+.loading {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: $primaryColor;
+        min-height: 100vh;
+    &__deactive {
+        display: none;
+    }
+}   
+// Loading Spin 
+
+#spin1{
+    border: 7px solid white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+#spin2{
+    border-top: 5px solid blue;
+    
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+    animation: intro_loader 2.5s linear infinite;
+}
+
+.deactive {
+    display: none;
+}

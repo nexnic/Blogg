@@ -1,0 +1,126 @@
+@keyframes navLeft {
+    0% {
+        opacity: 0;
+        transform: translate(-20rem);
+    }
+
+    100% {
+        transform: translate(0rem);
+    }
+
+}
+
+@keyframes navMid {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+    
+    100% {
+        transform: translateY(0rem);
+    }
+    
+}
+
+@keyframes navRigth {
+    0%{
+        opacity: 0;
+        transform: translate(10rem)
+    }
+    
+    100% {
+        transform: translate(0rem);
+    }
+}
+
+@keyframes nmbotup {
+    0%{
+        transform: translateY(10rem);
+        opacity: 0;
+    }
+
+    20% {
+        
+        opacity: 0.4;
+    
+    }
+
+    40% {
+        
+        opacity: 0.6;
+    }
+
+    60%{
+        
+        opacity: 0.8;
+    }
+
+    80% {
+        
+        opacity: 1;
+    }
+    
+
+    100% {
+        transform: translate(0);
+        
+    }
+}
+
+@keyframes navop{
+
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes btnrotat {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes intro_loader {
+    0%{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    10%{
+        opacity: .2;
+    }
+    20% {
+        opacity: .4;
+    }
+    30%{
+        opacity: .6;
+    }
+    40%{
+        opacity: .8;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: .8;
+    }
+    70%{
+        opacity: .6;
+    }
+    80%{
+        opacity: .4;
+    }
+    90%{
+        opacity: .2;
+    }
+    
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}   

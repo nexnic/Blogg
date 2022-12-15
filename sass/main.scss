@@ -11,6 +11,11 @@
 @import "./base/typograghy";
 @import "./base/utilities";
 
+@import "./componets/loadingscreen";
+@import "./componets/image";
+@import "./componets/button";
+
+@import './pages/home';
 
 @import "./layout/grid";
 @import "./layout/header";

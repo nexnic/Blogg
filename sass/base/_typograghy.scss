@@ -1,0 +1,10 @@
+.heading {
+
+    &__title2 {
+        font-size: clamp(1.75rem,  0.5vw, 1.875rem);
+    }
+}
+
+.paragraf {
+    font-size: clamp(.5rem,  2vw, 1rem);
+}

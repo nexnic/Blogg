@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.header__content{
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#Intro__Home {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 50%;
+    max-width: 60%;
+    padding: 0.7rem;
+    margin: 0 0 2rem 2rem;
+    background-color: $tbWhiteColor;
+    border-radius: 0.1rem;
+}

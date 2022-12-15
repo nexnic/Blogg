@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tage -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CSS file! -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Mamsen | Home</title>
 </head>
 <body>
-    <header>
-        <section  class="loading">
-            <div class="loading__logo" >
-                <img src="./assets/image/logo/Mamsen-logos_white.png" alt="" id="img__logo--big">
+<header>
+    <div class="loading">
+        <div class="loading__logo">
+            <img src="./assets/image/logo/Mamsen-logos_white.png" alt="" class="image__loading"/>
+        </div>
+        <div class="loading__icon" id="spin1">
+            <div id="spin2"></div>
+        </div>
+        <div class="loading__txt">
+            <h3 id="loading__heading"></h3>
+            <p id="loading__paragraf"></p>
+        </div>
+    </div>
+    <div id="errorContainer"></div>
+    <div class="nav deactive">
+        <div class="nav__desktop">
+            <div class="nav__desktop--left">
+                <a href="#home" class="link__desktopNav">Home</a>
+                <a href="./aboutus.html" class="link__desktopNav">About me</a>
+                <a href="" class="link__desktopNav">Contact ME</a>
             </div>
-            <div id="loading">
-                <div id="spin"></div>
+            <div class="nav__desktop--logo">
+                
             </div>
-            <div id="introSec__msg">
-                <h3 class="heading__title3--white" id="intro__txt"></h3>
-            </div>  
+            <div class="nav__desktop--right">
+                <a href="./hiking.html" class="link__desktopNav">Hiking</a>
+                <a href="./packing.html" class="link__desktopNav">Packing</a>
+                <a href="./food.html" class="link__desktopNav">Food</a>
+            </div>
+        </div>
+        <div class="nav__mobile">
+            <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="hamburger">
+            <ul class="nav__mobile--content">
+                <li>
+                    <a href="./hiking.html" class="link__MobilIcon">
+                        <i class="fa-solid fa-person-hiking"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./gear.html" class="link__MobilIcon">
+                        <i class="fa-solid fa-shirt"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./food.html" class="link__MobilIcon">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </a>
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header__content">
+        <div id="Intro__Home"></div>
+        
+    </div>
+</header>
+<main>
+    <section id="home__about">
+            <div id="HomeWelcome"></div>
+                <div id="HomeWelcome"></div>
+                <div>
+                    <div id="profile__image"></div>
+                    <div id="aboutmeHome"></div>
+                </div>
+            </div>
         </section>
-        <section class="error"></section>
-        <nav id="nav__desktop"></nav>
-        <nav id="nav__mobile"></nav>
-    </header>
-    <main></main>
-    <footer></footer>
-    <script src="./script/components/startup.js"></script>
+    </section>
+    <section id="home__image--1"></section>
+    <section id="home__hiking"></section>
+    <section id="home__image--2"></section>
+</main>
+<footer></footer>
+<script src="./script/components/startup.js"></script>
 </body>
 </html>
