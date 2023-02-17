@@ -1,10 +1,11 @@
 {
-  "name": "mansen",
+  "name": "mamsen",
   "version": "1.0.0",
-  "description": "This is the landing page for a blogg ",
+  "description": "This New blogg post i work on",
   "main": "index.js",
-  "scripts": { 
-    "compile:sass": "node-sass sass/main.scss css/style.css -w" 
+  "scripts": {
+    "docs": "jsdoc -c ./conf.json -r",
+    "watch": "sass --watch src/scss:dist/css & live-server"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/nexnic/Mamsen#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "jsdoc": "^4.0.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.58.2"
   }
 }
